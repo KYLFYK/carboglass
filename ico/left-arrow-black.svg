@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="49px" viewBox="0 0 57 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>left-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-12.3%" y="-3.6%" width="124.6%" height="107.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="10" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Документооборот" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Фильтры" transform="translate(-38.000000, -307.000000)" fill="#F9F8FF" fill-rule="nonzero">
+            <g id="Главное-меню" filter="url(#filter-1)">
+                <g id="Каталог" transform="translate(43.000000, 304.000000)">
+                    <g id="Group-10" transform="translate(3.000000, 0.000000)">
+                        <g id="Group-2">
+                            <g id="left-arrow" transform="translate(10.500000, 25.500000) scale(1, -1) rotate(90.000000) translate(-10.500000, -25.500000) translate(4.000000, 15.000000)">
+                                <path d="M5.20768033,10.4749561 L12.0070839,3.72474484 C12.7476387,2.9895911 12.7476387,1.7865874 12.0070839,1.0513946 C11.2665291,0.3162018 9.98746764,0.3162018 9.31423599,1.0513946 L1.10108532,9.13828102 C0.764508842,9.4724205 0.5625,10.0071452 0.5625,10.4749561 C0.5625,11.0096418 0.764469494,11.4774918 1.10108532,11.8116313 L9.24691283,19.9653143 C9.58352865,20.2994929 10.1220746,20.5 10.5933368,20.5 C11.1319221,20.5 11.6031842,20.2995319 11.9397607,19.9653143 C12.6803155,19.2301606 12.6803155,18.0271569 11.9397607,17.2919641 L5.20768033,10.4749561 Z M11.0645596,18.9627787 C10.8626294,19.1632468 10.4586904,19.1632468 10.256721,18.9627787 L2.04357028,10.8759704 C1.90892395,10.742299 1.84160078,10.6086276 1.84160078,10.4749561 C1.84160078,10.3412847 1.90892395,10.2076133 2.04357028,10.0739419 L10.256721,1.98709453 C10.3240441,1.85342311 10.4586511,1.78662646 10.6606599,1.78662646 C10.8626688,1.78662646 10.9299526,1.85346217 11.0645989,1.98709453 C11.2665291,2.18756259 11.2665291,2.58857685 11.0645989,2.78908397 L3.72661005,10.0071062 C3.59196372,10.1407776 3.52464056,10.274449 3.52464056,10.4749171 C3.52464056,10.6753851 3.59196372,10.8090956 3.72661005,10.942767 L10.9972758,18.1607892 C11.2665684,18.4281321 11.2665684,18.7623106 11.0645596,18.9627787 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

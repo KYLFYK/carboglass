@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход в аккаунт Carboglass</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <script src="js/preloader.js"></script>
+    <div id="preloader-page" class="preloader">
+        <div class="loader"><div class="loader-2"></div></div>
+    </div>
+    <div class="reg__backGr"></div>
+    <aside class="left__menu__block">
+        <div class="left__menu_logo">
+            <img class="logo1" src="img/logo.png" alt=""><img class="logo2" src="img/logo2.png" alt="">
+        </div>
+        <div class="left__menu_add">
+            оптовый интернет магазин
+        </div>
+        <div class="left__menu_rights">
+            All rights reserved©
+        </div>
+    </aside>
+    <main class="reg__block">
+        <form action="index.html" class="reg__window">
+            <div class="reg__window_title">
+                Вход в личный кабинет
+            </div>
+            <input type="text" name="login" id="login" class="reg__input" placeholder="Логин" required>
+            <input type="password" name="password" id="password" class="reg__input" placeholder="Пароль" required>
+            <input type="checkbox" name="remember" id="remember" class="checkbox">
+            <label class="checkbox__label reg__checkbox__label" for="remember">Запомнить</label>
+            <button class="reg__submit" type="submit" onclick="document.location='main.html'">Войти</button>
+            <a href="#" class="reg__restore">Восстановить аккаунт</a>
+            <a href="#" class="reg__reg open-popup" data-effect="mfp-zoom-in">Зарегистрироваться</a>
+        </form>
+    </main>
+    <main class="reg__block reg__block__registration blocked">
+        <form action="" class="reg__window">
+            <div class="reg__window_title">
+                Регистрация
+            </div>
+            <input type="text" name="LNF" id="lnf" class="reg__input" placeholder="ФИО" required>
+            <input type="text" name="birth" id="birth" class="reg__input" placeholder="Дата рождения 22.12.2222" required>
+            <input type="number" name="inn" id="inn" class="reg__input" placeholder="ИНН организации" required>
+            <input type="text" name="login" id="loginReg" class="reg__input" placeholder="Придумайте логин" required>
+            <input type="password" name="passwordReg" id="passwordReg" class="reg__input" placeholder="Пароль" required>
+            <input type="password" name="passwordCheck" id="passwordCheck" class="reg__input" placeholder="Подтвердите пароль" required>
+            <button class="reg__submit" type="submit">Отправить на регистрацию</button>
+            <a href="#" class="reg__log">Войти в существующий</a>
+        </form>
+    </main>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>

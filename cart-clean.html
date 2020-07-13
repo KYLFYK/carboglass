@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carboglass - Корзина</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <script src="js/preloader.js"></script>
+    <div id="preloader-page" class="preloader">
+        <div class="loader"><div class="loader-2"></div></div>
+    </div>
+    <div class="chat__btn">
+    </div>
+    <div class="chat__block">
+        <div class="chat__close">
+
+        </div>
+        <div class="chat__manager_block">
+            <div class="chat__manager_av">
+            </div>
+            <div class="chat__manager_info">
+                <div class="chat__title">Ваш менеджер</div>
+                <div class="chat__manager_name">Виталий Киренков</div>
+                <div class="chat__manager_tel">+7 (777) 777-77-77</div>
+            </div>
+            <div class="chat__star">
+                <svg width="100%" height="100%" viewBox="0 0 71 66" version="1.1">
+                    <g id="an" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="starFill" transform="translate(-657.000000, -564.000000)" fill="#F9F8FF" stroke="#FF0139">
+                            <g id="starFill1" transform="translate(82.000000, 507.000000)">
+                                <g id="starFill2" transform="translate(38.000000, 33.000000)">
+                                    <path id="starFill3" d="M572.5,25.1297757 L562.104952,46.1924437 L538.860918,49.5699996 L555.680459,65.9650002 L551.709904,89.1151125 L572.5,78.1851121 L593.290096,89.1151125 L589.319541,65.9650002 L606.139082,49.5699996 L582.895048,46.1924437 L572.5,25.1297757 Z"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div class="chat__message">
+            Добрый день! Я - Ваш личный менеджер. Буду рад помочь Вам с Вашими вопросами!
+        </div>
+        <div class="chat__input">
+            <input type="text" name="message" id="messageTell" placeholder="Напишите ваше сообщение">
+            <div class="chat__sent">
+
+            </div>
+        </div>
+    </div>
+    <main class="main__container">
+        <aside class="menu__bar">
+            <div class="left__menu_logo">
+                <img class="logo1" src="img/logo.png" alt=""><img class="logo2" src="img/logo2.png" alt="">
+            </div>
+            <div class="user__info__block">
+                <div class="logo">
+                    <img src="img/man.png" alt="">
+                </div>
+                <div class="info">
+                    <div class="name__block">
+                        <span>Иванов Иван</span>
+                        <div class="ico" data-title="Редактировать"><img src="ico/pen.svg" alt=""></div>
+                        <div class="ico" data-title="Выйти из аккаунта"><img src="ico/logout.svg" alt=""></div>
+                    </div>
+                    <div class="profile__sel__block">
+                        <div class="profile__sel_text">
+                            Текущий профиль
+                        </div>
+                        <div class="profile__sel">
+                            <label for="select" class="select">
+                                <input type="radio" name="list" value="not_changed" id="bg">
+                                <input type="radio" name="list" value="not_changed" id="select">
+                                <label class="bg" for="bg"></label>
+                                <div class="items">
+                                <input type="radio" name="list" value="first_value" id="list[0]">
+                                <label for="list[0]">Менеджер - ООО "Башнефть" </label>
+                                <input type="radio" name="list" value="second_value" id="list[1]" checked>
+                                <label for="list[1]">ИП Иванов И.И</label>
+                                <span id="text">Выберите профиль</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="menu__nav">
+                <ul class="menu__nav_list">
+                    <li>
+                        <a href="main.html" class="menu__nav_link haveList haveList1">Каталог товаров <img src="ico/log.svg" alt=""></a>
+                        <ul class="link__ul link__ul1 scaled">
+                            <li>
+                                <a href="#" class="link__items link__items_men link__active" id="sotPoli">сотовый поликарбонат</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link__items link__items_men" id="monPoli">монолитный поликарбонат</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link__items link__items_men" id="complect">комплектующие</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link__items link__items_men" id="tepl">теплицы</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="cart.html" class="menu__nav_link nav__active">Корзина <img src="ico/retail.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="order-status.html" class="menu__nav_link">Состояние заказов<img src="ico/status.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu__nav_link haveList haveList2">Личные данные<img src="ico/lk.svg" alt=""></a>
+                        <ul class="link__ul link__ul2 scaled">
+                            <li>
+                                <a href="#" class="link__items">личная информация</a>
+                            </li>
+                            <li>
+                                <a href="companies.html" class="link__items">мои организации</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link__items">личный счет</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link__items">выйти из аккаунта</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="docs.html" class="menu__nav_link">Документооборот <img src="ico/contract.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu__nav_link">Ваш менеджер <img src="ico/talk.svg" alt=""></a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="main__window">
+            <div class="window__title">
+                Корзина
+            </div>
+            <div class="window__find__block window__find__block_cart">
+                <div class="div_input">
+                    <input type="text" name="docFind" id="docFind" class="find__input" placeholder="Поиск по товарам">
+                </div>
+                <div>
+                    <a href="cart.html" class="btn__delete_all">К черновику</a>
+                    <a href="#" class="btn__delete_all">Очистить корзину</a>
+                </div>
+            </div>
+            <div class="cart__block">
+                <table>
+                    <tr class="header">
+                        <th>Название</th>
+                        <th>Размер</th>
+                        <th>Толщина</th>
+                        <th>Цвет</th>
+                        <th>Остаток на складе</th>
+                        <th>Количество товара</th>
+                        <th>Скидка</th>
+                        <th>Цена</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td class="pr_name">
+                            <div class="product__name">
+                                Карбогласс «Кристалл»
+                            </div>
+                            <div class="product__info">
+                                Производитель <span class="maker">КПК «Карбогласс»</span>
+                            </div>
+                        </td>
+                        <td class="pr_size">
+                            1 x 3
+                        </td>
+                        <td class="pr_width">
+                            20 мм
+                        </td>
+                        <td class="pr_color">
+                            Желтый
+                        </td>
+                        <td class="pr_count_s">
+                            <div class="product__count_input_block">
+                                <input class="product__count_input" type="number" name="countToCart" id="countToCart" min="0"
+                                max="10000"
+                                step="1"
+                                value="122"
+                                disabled>
+                            </div>
+                        </td>
+                        <td class="pr_count">
+                            <div class="product__count_input_block">
+                                <input class="product__count_input" type="number" name="countToCart" id="countToCart" min="0"
+                                max="10000"
+                                step="1"
+                                value="54">
+                            </div>
+                        </td>
+                        <td class="pr_sale">
+                            1 251 RUB
+                        </td>
+                        <td class="pr_price">
+                            <div class="product__cost_info">
+                                <div class="product__cost">
+                                    <span class="red">29 640</span> RUB
+                                </div>
+                            </div>
+                        </td>
+                        <td class="pr_delete">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="pr_name">
+                            <div class="product__name">
+                                Карбогласс «Агро»
+                            </div>
+                            <div class="product__info">
+                                Производитель <span class="maker">КПК «Карбогласс»</span>
+                            </div>
+                        </td>
+                        <td class="pr_size">
+                            3 x 4
+                        </td>
+                        <td class="pr_width">
+                            15 мм
+                        </td>
+                        <td class="pr_color">
+                            Черный
+                        </td>
+                        <td class="pr_count_s">
+                            <div class="product__count_input_block">
+                                <input class="product__count_input" type="number" name="countToCart" id="countToCart" min="0"
+                                max="10000"
+                                step="1"
+                                value="612"
+                                disabled>
+                            </div>
+                        </td>
+                        <td class="pr_count">
+                            <div class="product__count_input_block">
+                                <input class="product__count_input" type="number" name="countToCart" id="countToCart" min="0"
+                                max="10000"
+                                step="1"
+                                value="120">
+                            </div>
+                        </td>
+                        <td class="pr_sale">
+                            1 520 RUB
+                        </td>
+                        <td class="pr_price">
+                            <div class="product__cost_info">
+                                <div class="product__cost">
+                                    <span class="red">34 910</span> RUB
+                                </div>
+                            </div>
+                        </td>
+                        <td class="pr_delete">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="pr_name">
+                            <div class="product__name">
+                                Карбогласс «Супер покров»
+                            </div>
+                            <div class="product__info">
+                                Производитель <span class="maker">КПК «Карбогласс»</span>
+                            </div>
+                        </td>
+                        <td class="pr_size">
+                            3 x 7
+                        </td>
+                        <td class="pr_width">
+                            25 мм
+                        </td>
+                        <td class="pr_color">
+                            Бирюзовый
+                        </td>
+                        <td class="pr_count_s">
+                            <div class="product__count_input_block">
+                                <input class="product__count_input" type="number" name="countToCart" id="countToCart" min="0"
+                                max="10000"
+                                step="1"
+                                value="512"
+                                disabled>
+                            </div>
+                        </td>
+                        <td class="pr_count">
+                            <div class="product__count_input_block">
+                                <input class="product__count_input" type="number" name="countToCart" id="countToCart" min="0"
+                                max="10000"
+                                step="1"
+                                value="12">
+                            </div>
+                        </td>
+                        <td class="pr_sale">
+                            1 020 RUB
+                        </td>
+                        <td class="pr_price">
+                            <div class="product__cost_info">
+                                <div class="product__cost">
+                                    <span class="red">10 910</span> RUB
+                                </div>
+                            </div>
+                        </td>
+                        <td class="pr_delete">
+
+                        </td>
+                    </tr>
+                </table>
+                <div class="cart__footer">
+                    <div class="cart__info_block">
+                        <div class="column">
+                            <div class="cart__item">
+                                <div class="title">
+                                    Количество товаров
+                                </div>
+                                <div class="text">
+                                    3
+                                </div>
+                            </div>
+                            <div class="cart__item">
+                                <div class="title">
+                                    Сумма скидки
+                                </div>
+                                <div class="text">
+                                    3 791 <span class="red">RUB</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart__item main">
+                            <div class="title">
+                                Итого
+                            </div>
+                            <div class="text">
+                                75 460 <span class="red">RUB</span>
+                            </div>
+                        </div>
+                        <a href="#" class="make__order">Перейти к оплате</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>
